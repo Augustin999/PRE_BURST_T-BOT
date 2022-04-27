@@ -1,0 +1,1 @@
+worker: python tBot.py -p $PORT

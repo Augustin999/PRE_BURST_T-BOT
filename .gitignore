@@ -1,0 +1,9 @@
+files/
+__pycache__/
+.vscode/
+hedger/__pycache__/
+keys/
+.slugignore
+test.py
+futures_scan.py
+spot_scan.py
