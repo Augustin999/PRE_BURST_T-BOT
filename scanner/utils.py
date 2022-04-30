@@ -12,12 +12,13 @@ from pathlib import Path
 UNIVERSE = ['BTCUSDT', 'ETHUSDT', 'ADAUSDT', 'LINKUSDT']
 
 # OPPORTUNITY SCANS SETTINGS
-TIMEFRAME = '1m'
+TIMEFRAME = '4h'
 BB_PERIOD = 20
 BB_MULTIPLIER = 2
 CCI_PERIOD = 160
 RSI_PERIOD = 20
 N_DIFF = 3
+# BB span thresholds calibrated on 4h timeframe
 BB_SPAN_THRESHOLDS = {
     'BTCUSDT': 0.035,
     'ETHUSDT': 0.10,
