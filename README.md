@@ -11,9 +11,9 @@ I noted that most trading strategies usually give interesting trading signals bu
 To make this functionnal you need to have a functionnal telegram bot (create it on the BotFather channel) with the corresponding token. Save this token in the *keys* directory. Then this project uses the Binance API to pull OHLCV data periodically. You will need a Binance account and the private and public keys of an API. Put these keys in the *keys* directory. Your *keys* directory should look like this :
 
 keys/
-    telegram_token
-    api_public_key
-    api_private_key
+    - telegram_token
+    - api_public_key
+    - api_private_key
 
 Now you can run the bot locally by executing the tBot.py file in a Python instance (terminal or notebook). As the bot is continuesly listening to the telegram conversation to remain ready to answer any message, the file will be executing infinitely (unless you interrupt it).
 

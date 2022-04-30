@@ -17,7 +17,7 @@ import os
 import pandas as pd
 import time as tm
 
-from scanner import models, utils, scanner, futures_api, spot_api
+from scanner import utils, scanner, futures_api, spot_api
 
 
 
